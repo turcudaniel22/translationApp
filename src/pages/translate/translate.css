@@ -1,0 +1,634 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nabBar1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 14vh;
+  border-bottom: 6px solid black;
+  text-align: center;
+  background-color: #2892d7;
+  color: white;
+  letter-spacing: 5px;
+}
+.secMain {
+  display: flex;
+  background-color: #f9c784;
+  height: 70vh;
+}
+.left {
+  width: 50vw;
+  height: 70vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  animation: 2s ease-in-out infinite alternate swingParent;
+}
+.right {
+  /* width: 50vw; */
+  padding: 20px;
+  /* height: 70vh; */
+  display: flex;
+  align-items: end;
+  width: 100%;
+  justify-content: end;
+}
+.inputMain {
+  display: flex;
+  padding: 8px;
+  justify-content: space-evenly;
+  width: 80%;
+  border-radius: 12px;
+  margin-bottom: 3rem;
+  height: 16%;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 5px 10px #888888;
+}
+
+.nameInput {
+  width: 80%;
+  border: none;
+  outline: none;
+  padding: 26px;
+  font-size: large;
+  border-radius: 10px;
+  background-color: #d9d9d9;
+}
+::placeholder {
+  color: black;
+}
+.animationClass{
+  -webkit-animation: rotate-hor-center 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+	animation: rotate-hor-center 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
+@-webkit-keyframes rotate-hor-center {
+  0% {
+    -webkit-transform: rotateX(0);
+            transform: rotateX(0);
+  }
+  100% {
+    -webkit-transform: rotateX(-360deg);
+            transform: rotateX(-360deg);
+  }
+}
+@keyframes rotate-hor-center {
+  0% {
+    -webkit-transform: rotateX(0);
+            transform: rotateX(0);
+  }
+  100% {
+    -webkit-transform: rotateX(-360deg);
+            transform: rotateX(-360deg);
+  }
+}
+
+.arrowIcon {
+  font-size: 80px !important;
+  color: #ffc700;
+  cursor: pointer;
+}
+.footerMain {
+  background-color: #2892d7;
+  width: 100vw;
+  height: 16vh;
+}
+/* //////////////////////////////////////// */
+.navBar {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 14vh;
+  border-bottom: 6px solid black;
+  text-align: center;
+  background-color: #2892d7;
+  color: white;
+  padding: 14px;
+  letter-spacing: 5px;
+}
+.txtIConDiv {
+  align-items: center;
+  width: 55%;
+  display: flex;
+  justify-content: flex-end;
+}
+.navIcon {
+  padding: 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navIcon p {
+   margin-right: -20px;
+    padding:  5px 20px;
+   border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.minilogo{
+  z-index: 9999999 !important;
+  border-radius: 50px;
+}
+.translateBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 45vw;
+  position: absolute;
+  height: 70vh;
+  border-radius: 40px;
+  transition: 0.5s;
+  margin-bottom: -8rem;
+  background-color: #ffffff;
+  animation: 2s ease-in-out  swingParent;
+  animation-duration: 1s;
+}
+
+.transHedMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heading {
+  margin-top: 2rem;
+  letter-spacing: 3px;
+}
+.text {
+  margin-top: 8px;
+  padding: 20px;
+  width: 40vw !important;
+  height: 25vh !important;
+  border: none;
+  color: black;
+  outline: none;
+  overflow-y: scroll;
+  background-color: lightgray;
+}
+.text::-webkit-scrollbar {
+  display: none;
+}
+.transBtn {
+  padding: 20px;
+  margin-left: 3rem;
+  margin-top: 4rem;
+  border-radius: 20px;
+  letter-spacing: 2px;
+  border: none;
+  background-color: #3d486d;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: larger;
+}
+@keyframes swingParent {
+  from {
+    transform: translateX(0);
+    left: 0;
+  }
+  to {
+    left: 100%;
+    transform: translateX(-100%);
+  }
+}
+
+.imageDiv {
+  height: 100%;
+}
+.img1 {
+  height: 100%;
+}
+.texInput {
+  margin: 0 20px !important;
+  border-bottom: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5;
+}
+.inputIcon {
+  background-color: #2892d7;
+  border-radius: 50px;
+  font-size: 35px;
+  padding: 10px;
+  cursor: pointer;
+}
+.nameInput12 {
+  width: 90%;
+  border: none;
+  padding: 10px;
+  outline: none;
+}
+.nameInput12::placeholder {
+  color: gray;
+}
+
+/* ///////////////////////// */
+
+@media only screen and (max-width: 768px) {
+  .inputMain {
+    width: 100%;
+  }
+}
+
+/* ///////////////// */
+@media only screen and (max-width: 1024px) {
+  .transBtn {
+    width: 30%;
+  }
+  .imageDiv {
+    height: 80%;
+  }
+  .left {
+    width: 55vw;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .image2 {
+    height: 50vh !important;
+    margin-top: -8rem !important;
+  }
+  .inputMain {
+    padding: 30px;
+  }
+  .nameInput {
+    width: 90%;
+    padding: 12px !important;
+  }
+  .imageDiv {
+    height: 76% !important;
+  }
+  .iconImage {
+    height: 50vh !important;
+  }
+
+  .arrowIcon {
+    font-size: 63px !important;
+  }
+  .secMain {
+    flex-wrap: wrap;
+    height: 70vh;
+  }
+  .txtIConDiv {
+    width: 70%;
+  }
+  .left {
+    width: 100%;
+  }
+  .right {
+    width: 100%;
+    margin-top: -12rem;
+    /* height: 30%; */
+    align-items: flex-end;
+    justify-content: end;
+  }
+  /* .translateBox{
+        width: 55vw;
+    } */
+  .text {
+    width: 50vw !important;
+    height: 30vh !important;
+  }
+  .transTex {
+    justify-content: flex-start !important;
+  }
+
+  .iconImage {
+    /* justify-content: end !important; */
+    align-items: flex-start !important;
+    height: 50%;
+  }
+  .transBox {
+    width: 100% !important;
+    /* height: 45vh !important; */
+    height: 50vh !important;
+    /* padding: 2rem !important; */
+  }
+  .btnMain {
+    width: 50% !important;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .left {
+    width: 100%;
+    height: 50vh;
+  }
+  .img1 {
+    height: 100%;
+  }
+  .inputMain {
+    margin-bottom: 2rem;
+    height: 8vh;
+  }
+  .btnMain {
+    width: 60%;
+  }
+  .txtArea {
+    width: 100% !important;
+  }
+
+  .nameInput {
+    padding: 16px;
+  }
+  .arrowIcon {
+    font-size: 56px !important;
+  }
+  .transBox {
+    width: 100% !important;
+  }
+  .image2 {
+    height: 38vh !important;
+    /* margin-top: 2rem; */
+  }
+  .right {
+    justify-content: center;
+  }
+  .translateBox {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .img1 {
+    height: 85%;
+  }
+  .inputMain {
+    /* width: 100%; */
+    height: 6vh;
+  }
+  .nameInput {
+    padding: 8px;
+  }
+  .arrowIcon {
+    font-size: 50px !important;
+  }
+  .transBtn {
+    width: 54% !important;
+  }
+  .imageDiv {
+    margin-top: 3rem;
+  }
+  .btnMain {
+    width: 80% !important;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .inputMain {
+    /* width: 100%; */
+    height: 7vh;
+  }
+  .nameInput {
+    padding: 12px;
+  }
+  .arrowIcon {
+    font-size: 50px !important;
+  }
+  .transBtn {
+    width: 63%;
+    margin-left: 1rem;
+    margin-top: 1rem;
+  }
+  .clearBtn {
+    margin: 0 10px;
+  }
+  .logoutBtn {
+    margin: 0 10px;
+  }
+  .transBox {
+    margin-bottom: -6rem;
+  }
+  .iconHedMain {
+    width: 100% !important;
+  }
+  .image2 {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .translateBox {
+    width: 90vw;
+    margin-bottom: -7rem !important;
+  }
+  .text {
+    width: 80vw !important;
+  }
+  .txtIConDiv {
+    width: 80% !important;
+  }
+  .transBtn {
+    width: 50% !important;
+  }
+  .heading {
+    letter-spacing: 1px;
+  }
+  .transBox {
+    height: 34vh !important;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .transBtn {
+    width: 46%;
+  }
+  .iconHedMain {
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .transBtn {
+    width: 40%;
+  }
+  .image2 {
+    margin-top: 1rem;
+  }
+}
+@media only screen and (max-width: 820px) {
+  .left {
+    width: 40vw;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .imageDiv {
+    height: 85%;
+  }
+  .inputMain {
+    width: 100%;
+    height: 12%;
+  }
+
+  .transBtn {
+    width: 35%;
+  }
+  .translateBox {
+    width: 60%;
+  }
+  .text {
+    width: 90% !important;
+  }
+  .transTex {
+    margin-top: 1rem !important;
+    align-items: flex-start !important;
+    padding: 10px;
+  }
+
+  .btnMain {
+    width: 30% !important;
+    margin-top: 1rem;
+  }
+  .iconImage {
+    margin-bottom: -1rem;
+    height: 50vh !important;
+  }
+  .image2 {
+    margin-top: -4rem;
+  }
+  .transBox {
+    margin-bottom: -8rem;
+    height: 50vh !important;
+  }
+}
+@media only screen and (max-width: 912px) {
+  .transBtn {
+    width: 35%;
+  }
+  .translateBox {
+    width: 100%;
+  }
+  .text {
+    width: 90% !important;
+  }
+  .imageDiv {
+    height: 65%;
+  }
+  .left {
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 30%;
+  }
+  .inputMain {
+    height: 10%;
+  }
+  .innerDiv {
+    flex-direction: column-reverse;
+  }
+  .transBox {
+    height: 42vh !important;
+    width: 99% !important;
+  }
+  .iconImage {
+    justify-content: center !important;
+    width: 100% !important;
+    height: 50vh;
+  }
+  .image2 {
+    margin-top: -5rem;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .transBtn {
+    width: 50% !important;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .transBtn {
+    width: 50% !important;
+    margin-left: 1rem;
+    margin-top: 1rem;
+  }
+}
+@media only screen and (max-width: 280px) {
+  .txtIConDiv {
+    width: 100% !important;
+  }
+  .translateBox {
+    width: 100%;
+    margin-bottom: -5rem !important;
+  }
+
+  .heading {
+    letter-spacing: 1px;
+  }
+  .transBtn {
+    width: 62% !important;
+    margin-top: 0px;
+    margin-left: 2rem;
+  }
+  .right {
+    margin-top: -2rem;
+    padding: 7px;
+  }
+  .imageDiv {
+    height: 76%;
+  }
+  .img1 {
+    height: 100%;
+  }
+  .inputMain {
+    padding: 24px !important;
+  }
+  .arrowIcon {
+    font-size: 47px !important;
+  }
+  .btnMain {
+    margin-left: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 412px) {
+  .transBtn {
+    width: 56%;
+  }
+  .translateBox {
+    /* width: 85%;   */
+    width: 100%;
+  }
+  .transBox {
+    margin-bottom: -4rem;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .translateBox {
+    margin-bottom: -6rem;
+  }
+  .nameInput {
+    padding: 16px;
+  }
+  .arrowIcon {
+    font-size: 48px !important;
+  }
+  .transBtn {
+    margin-top: 1rem;
+  }
+}
+/* @media only screen and (max-width: 1280px) {
+    .transBtn {
+        width: 30%;
+    }
+  } */
+@media only screen and (max-width: 1024px) {
+  .innerDiv {
+    flex-direction: column-reverse !important;
+  }
+  .iconImage {
+    width: 100% !important;
+    height: 50vh !important;
+    justify-content: center;
+  }
+  .image2 {
+    height: 36vh;
+    margin-top: -5rem;
+  }
+
+  .transBox {
+    height: 47vh !important;
+    width: 84%;
+  }
+}

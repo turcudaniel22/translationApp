@@ -1,0 +1,517 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nabBar1{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 14vh;
+  border-bottom:  6px solid black;
+  text-align: center  ;
+  background-color: #2892d7;
+  color: white;
+  letter-spacing: 5px;
+}
+.secMain{
+  display: flex ;
+  background-color: #f9c784;
+  height: 70vh;
+ 
+}
+.left{
+  width: 50vw;
+  height: 70vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  -webkit-transtition: left .3s ease-in-out, right .3s ease-in-out;
+  transition: left .3s ease-in-out, right .3s ease-in-out;
+}
+
+.right{
+  padding: 20px;
+  display: flex;
+  align-items: end;
+  width: 100%;
+  justify-content: end;
+
+}
+.inputMain{
+  display: flex;
+  padding: 8px;
+  justify-content: space-evenly;
+  width: 80%;
+  border-radius: 12px;
+  margin-bottom: 3rem;
+  height: 16%;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.nameInput{
+  width: 80%;
+  border: none;
+  outline: none;
+  padding: 26px;
+  font-size: large;
+  border-radius: 10px;
+  background-color: #d9d9d9;
+}::placeholder{
+  color: black;
+}
+.arrowIcon{
+  font-size: 80px !important;
+  color: #ffc700;
+}
+.footerMain{
+  background-color: #2892d7;
+  width: 100vw;
+  height: 16vh;
+}
+/* //////////////////////////////////////// */
+.navBar{
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 14vh;
+  border-bottom:  6px solid black;
+  text-align: center  ;
+  background-color: #2892d7;
+  color: white;
+  padding: 14px;
+  letter-spacing: 5px;
+}
+.txtIConDiv{
+
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+}
+.navIcon{
+  padding: 20px;
+  /* border: 1px solid black; */
+  cursor: pointer;
+}
+.translateBox{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 45vw;
+  height: 70vh;
+  border-radius: 40px;
+  margin-bottom: -8rem;
+  background-color: #ffffff;
+}
+.transHedMain{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.heading{
+  margin-top: 2rem;
+  letter-spacing: 3px;
+}
+.text{
+  margin-top: 8px;
+  padding: 20px;
+  width: 40vw !important;
+  height: 25vh !important;
+  border: none;
+  color: black;
+  outline: none;
+  background-color: lightgray;
+}
+.transBtn{
+  width: 20%;
+  padding: 20px;
+  margin-left: 3rem;
+  margin-top: 4rem;
+  border-radius: 20px;
+  letter-spacing: 2px;
+  border: none;
+  background-color: #3d486d;
+  color: #ffffff;
+  font-size: larger;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.imageDiv{
+height: 100%;
+}
+.img1{
+height: 100%;
+}
+.texInput{
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+}
+.nameInput12{
+  width: 95%;
+  border: none;
+  padding: 10px;
+  border-bottom: 1px solid black;
+  outline:  none;
+}
+.nameInput12::placeholder {
+color: gray;
+}
+
+.icon{
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+/* ///////////////////////// */
+
+@media only screen and (max-width: 768px) {
+  .inputMain {
+      width: 100%;
+  }
+}
+
+
+/* ///////////////// */
+@media only screen and (max-width: 1024px) {
+  .transBtn {
+      width: 30%;
+  }
+  .imageDiv {
+      height: 80%;
+  }
+  .left {
+      width: 55vw;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .image2{
+      height: 50% !important;
+  }
+  .inputMain {
+      padding:30px ;
+  }
+  .nameInput {
+      width: 90%;
+      padding: 12px !important;
+  }
+  .imageDiv {
+      height: 76% !important;
+  }
+
+
+  .arrowIcon {
+      font-size: 63px !important;
+      cursor: pointer;
+
+  }
+  .secMain{
+      flex-wrap: wrap;
+      height: 70vh;
+  }
+  .txtIConDiv{
+      width: 70%;
+  }
+  .left {
+      width: 100%;
+  }
+  .right {
+      width: 100%;
+      margin-top: -12rem;
+      /* height: 30%; */
+      align-items: flex-end;
+      justify-content: end;
+  }
+  /* .translateBox{
+      width: 55vw;
+  } */
+  .text{
+      width: 50vw !important;
+      height: 30vh !important;
+  }
+  .transTex{
+      justify-content: flex-start !important;
+  }
+  
+  .iconImage {
+      /* justify-content: end !important; */
+      align-items: flex-start !important;
+      height: 50%;
+  }
+  .transBox{
+      width: 51vw !important;
+      /* height: 45vh !important; */
+      height: 50vh !important;
+      /* padding: 2rem !important; */
+  }
+  .btnMain{
+      width: 50% !important;
+  }
+       
+  
+
+}
+
+@media only screen and (max-width: 425px) {
+  .left {
+      width: 100%;
+      height: 50vh;
+  }
+  .img1 {
+      height: 100%;
+  }
+  .inputMain {
+      margin-bottom: 2rem;
+      height: 8vh;
+  }
+  .btnMain {
+      width: 60%;
+  }
+  .txtArea{
+      width: 100% !important;
+  }
+ 
+  .nameInput{
+      padding: 16px;
+  }
+  .arrowIcon {
+      font-size: 56px !important;
+     
+  }
+  .transBox{
+      width: 100% !important;
+  }
+  .image2{
+      height: 30vh !important;
+      margin-top: 2rem;
+  }
+ 
+
+
+}
+
+@media only screen and (max-width: 320px) {
+  .img1 {
+      height: 85%;
+  }
+  .inputMain {
+      /* width: 100%; */
+      height: 6vh;
+  }
+  .nameInput{
+      padding: 8px;
+  }
+  .arrowIcon {
+      font-size: 50px !important;
+     
+  }
+  .transBtn{
+      width: 54% !important;
+  }
+  .imageDiv{
+      margin-top: 3rem;
+  }
+  .btnMain{
+      width: 80%!important;
+  }
+  
+}
+@media only screen and (max-width: 375px) {
+  
+  .inputMain {
+      /* width: 100%; */
+      height: 7vh;
+  }
+  .nameInput{
+      padding: 12px;
+  }
+  .arrowIcon {
+      font-size: 50px !important;
+     
+  }
+  .transBtn {
+      width: 63%;
+      margin-left: 1rem;
+      margin-top: 1rem;
+  }
+  .btnMain{
+      width: 84% !important;
+  }
+}
+
+
+
+@media only screen and (max-width: 425px) {
+  .translateBox {
+      width: 90vw;
+      margin-bottom: -7rem !important;
+  }
+  .text {
+      width: 80vw !important;
+  }
+  .txtIConDiv {
+      width: 80% !important;
+  }
+  .transBtn {
+      width: 50% !important;
+  }
+  .heading {
+      letter-spacing: 1px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .transBtn {
+      width: 46%;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .transBtn {
+      width: 40%;
+  }
+}
+@media only screen and (max-width: 820px) {
+  .left {
+      width: 40vw;
+      align-items: flex-start;
+      justify-content: flex-start;
+  }
+  .imageDiv {
+      height: 85%;
+  }
+  .inputMain{
+      width: 100%;
+      height: 12%;
+  }
+
+  .transBtn {
+      width: 35%;
+  }
+  .translateBox{
+      width: 60%;
+  }
+  .text{
+      width: 90% !important;
+  }
+  .transTex{
+      margin-top: 1rem !important;
+      align-items: flex-start !important;
+      padding: 10px;
+  }
+  .transBox{
+      height: 100% !important;
+  }
+  .btnMain {
+      width: 70% !important;
+      margin-top: 1rem;
+  }
+  .image2 {
+      /* height: 70% !important; */
+  }
+}
+@media only screen and (max-width: 912px) {
+  .transBtn {
+      width: 35%;
+  }
+  .translateBox{
+      width: 65%;
+  }
+  .text{
+      width: 90% !important;
+  }
+  .imageDiv {
+      height: 65%;
+  }
+  .left{
+      justify-content: flex-start;
+      align-items: flex-start;
+      width: 30%;
+  }
+  .inputMain{
+      height: 10%;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .transBtn {
+      width: 50% !important;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .transBtn {
+      width: 50% !important;
+      margin-left: 1rem;
+      margin-top: 1rem;
+  }
+}
+@media only screen and (max-width: 280px) {
+  .txtIConDiv {
+      width: 100% !important;
+  }
+  .translateBox {
+      width: 100%;
+          margin-bottom: -5rem !important;
+      }
+  
+  .heading {
+      letter-spacing: 1px;
+  }
+  .transBtn {
+      width: 62% !important;
+      margin-top: 0px;
+      margin-left: 2rem;
+  }
+  .right{
+      margin-top: -2rem;
+      padding: 7px;
+  }
+  .imageDiv {
+      height: 76%;
+  }
+  .img1{
+      height: 100%;
+  }
+  .inputMain {
+      padding: 24px !important;
+  }
+  .arrowIcon {
+      font-size: 47px!important;
+  }
+}
+
+@media only screen and (max-width: 412px) {
+  .transBtn {
+      width: 56%;
+  }
+  .translateBox{
+      width: 85%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .translateBox{
+     margin-bottom: -6rem;
+  }
+  .nameInput{
+      padding: 16px;
+  }
+  .arrowIcon {
+      font-size: 48px !important;
+      
+  }
+  .transBtn {
+     margin-top: 1rem;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .transBtn {
+      width: 30%;
+  }
+}

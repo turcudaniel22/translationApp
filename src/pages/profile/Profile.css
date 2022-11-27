@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.nabBar {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 14vh;
+  border-bottom: 6px solid black;
+  text-align: center;
+  background-color: #2892d7;
+  color: white;
+  padding: 14px;
+  letter-spacing: 5px;
+}
+.iconHedMain {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+.iconDiv {
+  /* border: 1px solid black; */
+  cursor: pointer;
+  padding: 20px;
+}
+.list {
+  margin: 10px;
+  position: relative;
+  padding: 10px;
+  width: 97%;
+  background-color: lightgray;
+}
+.list button {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  top: 7px;
+  padding: 5px;
+  background-color: #2892d7;
+  color: white;
+  border: none;
+}
+/* section */
+.innerDiv {
+  background-color: #f9c784;
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+}
+.transTex {
+  /* padding: 40px; */
+  width: 100vw;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.iconImage {
+  /* padding: 40px; */
+  width: 70vw;
+  display: flex;
+  padding: 20px;
+  align-items: end;
+  position: relative;
+}
+.image2 {
+  height: 94%;
+  position: absolute;
+  top: 22%;
+}
+.transBox {
+  background-color: white;
+  width: 50vw;
+  height: 70vh;
+  margin-bottom: -5rem;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+.txtArea {
+  width: 45vw;
+  height: 40vh;
+}
+.btnMain {
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
+  margin-left: 2rem;
+}
+.btnClear {
+  padding: 20px;
+  letter-spacing: 1px;
+  border-radius: 18px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  color: white;
+  background-color: red;
+  cursor: pointer;
+}
+.btnLogout {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 20px;
+  letter-spacing: 1px;
+  border-radius: 18px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  cursor: pointer;
+}
+.mainDiv {
+  padding: 20px;
+  cursor: pointer;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainDiv p {
+  margin-right: -20px;
+  padding: 5px 30px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.hed {
+  cursor: pointer;
+}
+.list_Parent {
+  width: 100%;
+  border: 1px solid;
+  height: 75vh;
+  overflow-y: scroll;
+  margin: 20px 0;
+}
+.list_Parent::-webkit-scrollbar {
+  display: none;
+}
+
+/* /////////////////// */
+
+@media only screen and (max-width: 1440px) {
+  .btnMain {
+    width: 39%;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .btnMain {
+    width: 32vw !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .btnMain {
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .btnMain {
+    width: 26% !important;
+  }
+  .iconHedMain {
+    width: 70%;
+  }
+  .innerDiv {
+    flex-wrap: wrap;
+    height: 100%;
+    flex-direction: column-reverse;
+  }
+  .transBox {
+    background-color: white;
+    width: 70vw;
+    height: 45vh;
+    margin-top: 2rem;
+  }
+  .iconImage {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .iconHedMain {
+    width: 90%;
+  }
+
+  .btnMain {
+    width: 50% !important;
+  }
+  .iconImage {
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .image2 {
+    height: 64%;
+  }
+  .transBox {
+    height: 36vh;
+  }
+  .btnMain {
+    width: 75%;
+  }
+  .image2 {
+    height: 54%;
+  }
+}
