@@ -1,3 +1,16 @@
+
+#Figma Design
+
+[figmadesign.pdf](https://github.com/turcudaniel22/translationApp/files/10098837/figmadesign.pdf)
+
+
+#Figma TreeFlow 
+
+[treeflow.pdf](https://github.com/turcudaniel22/translationApp/files/10098839/treeflow.pdf)
+
+
+
+
 # Getting Started with Create React App
 
 Deployed on railway app https://translateappsign-production.up.railway.app/
