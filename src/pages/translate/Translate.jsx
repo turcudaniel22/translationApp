@@ -140,7 +140,7 @@ const Translate = () => {
                       setInputValue(e.target.value)
                       setTranslation(e.target.value)
                     }}
-                    placeholder='Enter your name'
+                    placeholder=''
                   />
                 </div>
 
