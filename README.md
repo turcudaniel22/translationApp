@@ -1,10 +1,10 @@
 
-#Figma Design
+# Figma Design
 
 [figmadesign.pdf](https://github.com/turcudaniel22/translationApp/files/10098837/figmadesign.pdf)
 
 
-#Figma TreeFlow 
+# Figma TreeFlow 
 
 [treeflow.pdf](https://github.com/turcudaniel22/translationApp/files/10098839/treeflow.pdf)
 
