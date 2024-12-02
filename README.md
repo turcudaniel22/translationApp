@@ -1,4 +1,7 @@
-
+![React](https://img.shields.io/badge/React-17.0.2-blue?style=for-the-badge&logo=react)
+![Railway](https://img.shields.io/badge/Deployed%20on-Railway-green?style=for-the-badge&logo=railway)
+![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
+![Build](https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge)
 
 
 
