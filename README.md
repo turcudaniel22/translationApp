@@ -10,9 +10,7 @@
 
 A modern translation web app built with React and deployed on Railway.
 
-## Live Demo
 
-[Live Demo Link Here]
 
 ## 📂 Project Structure
 
